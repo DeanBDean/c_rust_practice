@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/library_crate",
+  "crates/output_crate",
+]
+
+[workspace.package]
+name = "c_rust_practice"
+version = "0.1.0"
+edition = "2021"
